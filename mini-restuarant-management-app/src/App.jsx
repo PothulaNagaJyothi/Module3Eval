@@ -1,6 +1,5 @@
 import {BrowserRouter,Routes,Route,Navigate} from 'react-router-dom';
-import {useContext} from 'react';
-import {AuthContext,AuthProvider} from './context/AuthContext';
+import {AuthProvider} from './context/AuthContext';
 import {RestaurantProvider} from './context/RestaurantContext';
 import Login from './pages/Login';
 import AdminDashboard from './pages/AdminDashboard';
