@@ -4,6 +4,7 @@ import {RestaurantProvider} from './context/RestaurantContext';
 import Login from './pages/Login';
 import AdminDashboard from './pages/AdminDashboard';
 import ProtectedRoute from './components/ProtectedRoute';
+import CustomerDashboard from './pages/CustomerDashboard'
 
 
 function App () {
